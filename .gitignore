@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (if you want to exclude large datasets)
+*.csv
+*.xlsx
+*.json
+!WineQT.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model files (uncomment if models are too large for git)
+# *.pkl
+# *.joblib
+# *.h5
